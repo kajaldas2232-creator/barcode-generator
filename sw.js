@@ -1,6 +1,6 @@
 // Code 128 Barcode Generator: offline service worker
 // Bump CACHE when you change index.html so users get the new version.
-var CACHE = "code128-v1";
+var CACHE = "code128-v2";
 var FILES = ["./", "index.html", "manifest.json", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", function (e) {
